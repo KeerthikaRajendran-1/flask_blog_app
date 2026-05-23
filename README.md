@@ -1,7 +1,7 @@
 # Flask Blog Application
 
 ## Status
-Project in progress 🚧
+completed
 
 ## Description
 This project will be a RESTful blog website built using Python and Flask.
