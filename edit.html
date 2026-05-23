@@ -1,15 +1,11 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h1>My Blog</h1>
-<a href="/create">Create Post</a>
-<hr>
-{% for post in posts %}
-<h2>{{post.title}}</h2>
-<p>{{post.content}}</p>
-<a href="/edit/{{post.id}}">Edit</a>
-<a href="/delete/{{post.id}}">Delete</a>
-<hr>
-{% endfor %}
+<h1>Create Blog</h1>
+<form method="POST">
+<input type="text" name="title" placeholder="Enter title"><br><br>
+<textarea name="content" placeholder="Write content"></textarea><br><br>
+<button type="submit">Submit</button>
+</form>
 </body>
 </html>
